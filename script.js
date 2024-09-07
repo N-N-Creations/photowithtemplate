@@ -15,7 +15,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
                 canvas.height = templateImage.height;
                 ctx.drawImage(templateImage, 0, 0);
                 // Adjust the coordinates and size as needed
-                ctx.drawImage(imageInput, 50, 50, 100, 100);
+                ctx.drawImage(img, 50, 50, 100, 100);
                 document.getElementById('templateContainer').style.display = 'block';
             };
         };
