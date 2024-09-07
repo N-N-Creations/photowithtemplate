@@ -28,11 +28,7 @@ body {
     margin: 0 auto;
 }
 
-#imageTemplate img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 #downloadButton {
     margin-top: 10px;
